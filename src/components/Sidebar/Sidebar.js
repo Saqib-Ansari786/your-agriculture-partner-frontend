@@ -76,7 +76,7 @@ export default function Sidebar({ onToggleSidebar }) {
         }
       } catch (error) {
         // User is not logged in, redirect to the login page if needed
-        // history.push("/login"); // Redirect to the login page or any other authorized route
+        history.push("/login"); // Redirect to the login page or any other authorized route
       }
     }
 
