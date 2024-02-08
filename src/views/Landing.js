@@ -16,7 +16,7 @@ export default function Landing() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                 "url('https://plus.unsplash.com/premium_photo-1661944447290-c36119d0028f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80')",
+                "url('https://plus.unsplash.com/premium_photo-1661944447290-c36119d0028f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80')",
               filter: "brightness(170%)",
             }}
           >
@@ -37,13 +37,14 @@ export default function Landing() {
                   </p>
                 </div>
                 <Link to="/register">
-                <div class="flex justify-center">
-                <a href="#" class=" mt-8 text-white bg-transparent px-4 py-2 flex items-center text-lg uppercase font-bold border border-white rounded transition duration-300 ease-in-out hover:bg-transparent hover:text-black">
-                  Get Started
-                </a>
-              </div>
-
-
+                  <div class="flex justify-center">
+                    <a
+                      href="#"
+                      class=" mt-8 text-white bg-transparent px-4 py-2 flex items-center text-lg uppercase font-bold border border-white rounded transition duration-300 ease-in-out hover:bg-transparent hover:text-black"
+                    >
+                      Get Started
+                    </a>
+                  </div>
                 </Link>
               </div>
             </div>
@@ -90,7 +91,8 @@ export default function Landing() {
                       Manage your farm and field
                     </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                    Easily add your farm by pinpointing your location and seamlessly outline multiple fields to your account
+                      Easily add your farm by pinpointing your location and
+                      seamlessly outline multiple fields to your account
                     </p>
                   </div>
                 </div>
@@ -166,10 +168,10 @@ export default function Landing() {
                   more sustainable, and more bountiful corn farming.
                 </p>
                 <Link to="/register">
-                <a href="#" class="font-bold text-blueGray-700 mt-8">Lets get started!</a>  
+                  <a href="#" class="font-bold text-blueGray-700 mt-8">
+                    Lets get started!
+                  </a>
                 </Link>
-
-               
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -375,11 +377,11 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-2-800x800.jpg").default}
+                    src={require("assets/img/team-2-800x800.jpg")}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-2xl font-bold">Minahil Sadiq</h5>
+                    <h5 className="text-2xl font-bold">Nimra Saleem</h5>
                     <p className="mt-1 text-sm uppercase font-semibold">
                       Machine Learning Engineer
                     </p>
@@ -397,7 +399,7 @@ export default function Landing() {
                       >
                         <i className="fab fa-google"></i>
                       </button>
-                      <a href="https://www.linkedin.com/in/minahil-sadiq">
+                      <a href="https://www.linkedin.com/in/nimra-saleem">
                         <button
                           className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                           type="button"
@@ -413,11 +415,11 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-1-800x800.jpg").default}
+                    src={require("assets/img/team-1-800x800.jpg")}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-2xl font-bold">Hasnain Ali</h5>
+                    <h5 className="text-2xl font-bold">Saqib Ali</h5>
                     <p className="mt-1 text-sm uppercase font-semibold">
                       Web Developer
                     </p>
@@ -435,7 +437,7 @@ export default function Landing() {
                       >
                         <i className="fab fa-google"></i>
                       </button>
-                      <a href="https://www.linkedin.com/in/hasnainali4">
+                      <a href="https://www.linkedin.com/in/saqib-ali-dev786/">
                         <button
                           className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                           type="button"
@@ -451,11 +453,11 @@ export default function Landing() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    src={require("assets/img/team-3-800x800.jpg").default}
+                    src={require("assets/img/team-3-800x800.jpg")}
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-2xl font-bold">Sheeza Ali</h5>
+                    <h5 className="text-2xl font-bold">Hafsa Ali</h5>
                     <p className="mt-1 text-sm uppercase font-semibold">
                       UI/UX Designer
                     </p>
@@ -473,7 +475,7 @@ export default function Landing() {
                       >
                         <i className="fab fa-google"></i>
                       </button>
-                      <a href="https://www.linkedin.com/in/sheeza-ali-aa5327255">
+                      <a href="https://www.linkedin.com/in/hafsa-ali">
                         <button
                           className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                           type="button"
@@ -490,7 +492,6 @@ export default function Landing() {
         </section>
       </main>
       <Footer />
-
     </>
   );
 }
